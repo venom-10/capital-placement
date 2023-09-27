@@ -1,0 +1,18 @@
+.active{
+    background-color: #00635B;
+    color: #fff;
+    margin-right: 30px;    
+    position: relative;
+}
+
+.active::after{
+    content: "";
+    position: absolute;
+    text-align: center;
+    right:-29px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #00635B;
+} 
